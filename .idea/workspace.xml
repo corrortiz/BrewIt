@@ -46,11 +46,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="navBar.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/navBar.js">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/assets/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="66" column="48" lean-forward="true" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+            <state relative-caret-position="414">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -122,8 +122,8 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/action/index.js" />
         <option value="$PROJECT_DIR$/src/assets/traducction.js" />
-        <option value="$PROJECT_DIR$/src/assets/css/index.css" />
         <option value="$PROJECT_DIR$/src/containers/navBar.js" />
+        <option value="$PROJECT_DIR$/src/assets/css/index.css" />
       </list>
     </option>
   </component>
@@ -450,6 +450,7 @@
       <recent name="C:\Users\CorrO\IdeaProjects\Akari\src\Routs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CorrO\IdeaProjects\Brew IT - copia\src\assets\css" />
       <recent name="C:\Users\CorrO\IdeaProjects\Brew IT\public" />
       <recent name="C:\Users\CorrO\IdeaProjects\Akari\src\containers" />
     </key>
@@ -927,7 +928,7 @@
       <workItem from="1492048324748" duration="611000" />
       <workItem from="1492051981027" duration="5240000" />
       <workItem from="1492099652239" duration="7827000" />
-      <workItem from="1492119490128" duration="12584000" />
+      <workItem from="1492119490128" duration="14178000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando Akari">
       <created>1491540893342</created>
@@ -954,7 +955,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71970000" />
+    <option name="totallyTimeSpent" value="73564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1203,14 +1204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/traducction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
@@ -1221,8 +1214,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/navBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="66" column="48" lean-forward="true" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+        <state relative-caret-position="713">
+          <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding />
         </state>
       </provider>

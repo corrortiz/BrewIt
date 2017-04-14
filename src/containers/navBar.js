@@ -55,7 +55,7 @@ class NavBar extends Component{
                          <div className="col s12 m12 l12">
                              <div className="card">
                                  <div className="card-title">
-                                     <h1 className="center-align">BREW IT!</h1>
+                                     <h1 className="center-align titulo">BREW IT!</h1>
                                  </div>
                              </div>
                          </div>
