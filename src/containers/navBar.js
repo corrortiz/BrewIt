@@ -30,7 +30,7 @@ class NavBar extends Component{
                  <header>
 
                      <div className="navbar-fixed">
-                         <nav className="light-blue lighten-2 ">
+                         <nav className="green darken-3">
                              <div className="container nav-content">
                                  <ul className="tabs tabs-transparent tabs-fixed-width">
                                      <li className="tab">
