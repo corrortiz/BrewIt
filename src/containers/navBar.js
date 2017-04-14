@@ -30,7 +30,7 @@ class NavBar extends Component{
                  <header>
 
                      <div className="navbar-fixed">
-                         <nav className="green darken-3">
+                         <nav className="black">
                              <div className="container nav-content">
                                  <ul className="tabs tabs-transparent tabs-fixed-width">
                                      <li className="tab">
@@ -54,9 +54,18 @@ class NavBar extends Component{
                      <div className="row">
                          <div className="col s12 m12 l12">
                              <div className="card">
+                                 <div className="card-title">
+                                     <h1 className="center-align">BREW IT!</h1>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div className="row">
+                         <div className="col s12 m12 l12">
+                             <div className="card">
                                  <div className="card-image">
                                      <img className="responsive-img" src={ImageFond} />
-                                         <h1 className="card-title black-text title-position">BREW IT!</h1>
                                  </div>
                                  <div className="card-content">
                                      <p className="flow-text">{localSelector(this.props.local, brewItRant)}</p>
