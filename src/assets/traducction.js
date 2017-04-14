@@ -42,3 +42,21 @@ export const link={
     en:'Web Page',
     fr:'Page Web'
 };
+
+export const youCanFindUsAt={
+    en:'You can find us at',
+    fr:'Vous pouvez nous trouver à',
+    es:'Nos puedes encontar en'
+};
+
+export const ourProducts={
+    en:'Our products',
+    fr:'Nos produits',
+    es:'Nuestros productos'
+};
+
+export const contactanos={
+    en:'Contact Us',
+    fr:'Contact',
+    es:'Contactanos'
+};
