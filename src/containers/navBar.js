@@ -190,18 +190,18 @@ class NavBar extends Component{
 
                      <div className="row center-align">
                          <div className="col s12 m4 l4">
-                             <a href="mailto:brewitfilters@gmail.com?Subject=Kiri" target="_top">
-                                 <i className="icon ion-email large"></i>
+                             <a className="black-text" href="mailto:brewitfilters@gmail.com?Subject=Kiri" target="_top">
+                                 <i className="material-icons large">contact_phone</i>
                              </a>
                          </div>
                          <div className="col s12 m4 l4">
-                             <a className="" href="http://instagram.com/brewitfilters" target="_blank">
-                                 <i className="icon ion-social-instagram large"></i>
+                             <a className="black-text" href="http://instagram.com/brewitfilters" target="_blank">
+                                 <i className="material-icons large">add_a_photo</i>
                              </a>
                          </div>
                          <div className="col s12 m4 l4">
-                             <a className="" href="tel:+14385028481" target="_top">
-                                <i className="icon ion-ios-telephone large"></i>
+                             <a className="black-text" href="tel:+14385028481" target="_top">
+                                 <i className="material-icons large">call</i>
                              </a>
                          </div>
                      </div>
