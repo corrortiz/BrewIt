@@ -94,7 +94,7 @@ class NavBar extends Component{
                          <div className="col s12 m12 l12">
                              <div className="card">
                                  <div className="card-title">
-                                     <h5 className="center-align titulo">{localSelector(this.props.local, ourProducts)}</h5>
+                                     <h5 className="center-align subTitulo">{localSelector(this.props.local, ourProducts)}</h5>
                                  </div>
                              </div>
                          </div>
@@ -134,7 +134,7 @@ class NavBar extends Component{
                          <div className="col s12 m12 l12">
                              <div className="card">
                                  <div className="card-title">
-                                     <h5 className="center-align titulo">{localSelector(this.props.local, youCanFindUsAt)}</h5>
+                                     <h5 className="center-align subTitulo">{localSelector(this.props.local, youCanFindUsAt)}</h5>
                                  </div>
                              </div>
                          </div>
@@ -180,7 +180,7 @@ class NavBar extends Component{
                          <div className="col s12 m12 l12">
                              <div className="card">
                                  <div className="card-title">
-                                     <h5 className="center-align titulo">{localSelector(this.props.local, contactanos)}</h5>
+                                     <h5 className="center-align subTitulo">{localSelector(this.props.local, contactanos)}</h5>
                                  </div>
                              </div>
                          </div>
@@ -189,7 +189,7 @@ class NavBar extends Component{
                      <div className="row center-align">
                          <div className="col s12 m4 l4">
                              <a className="black-text" href="mailto:brewitfilters@gmail.com?Subject=Kiri" target="_top">
-                                 <i className="material-icons large">contact_phone</i>
+                                 <i className="material-icons large">contact_mail</i>
                              </a>
                          </div>
                          <div className="col s12 m4 l4">
