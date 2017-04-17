@@ -61,20 +61,18 @@ class NavBar extends Component{
                  <main className="container">
 
                      <div className="row">
-                         <div className="col s12 m12 l12">
-                             <div className="card">
-                                 <div className="card-title">
-                                     <h1 className="center-align titulo">BREW IT!</h1>
-                                 </div>
-                             </div>
+                         <div className="col s12 m12 l12 center-align">
+                             <img className="circle imagePosition"  width="120" src={logo} alt="logo" />
                          </div>
                      </div>
 
                      <div className="row">
-                         <div className="col s12 center-align">
-                            <img className="z-depth-1"  width="150" src={logo} alt="logo" />
+                         <div className="col s12 m12 l12 center-align">
+                             <h1 className="titulo">BREW IT!</h1>
                          </div>
                      </div>
+
+
 
                      <div className="row">
                          <div className="col s12 m12 l12">
