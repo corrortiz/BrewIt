@@ -9,13 +9,13 @@ import p1 from '../assets/Images/p1.jpg';
 import p2 from '../assets/Images/p2.jpg';
 import logo from '../assets/Images/logo.jpg';
 
-import b2 from '../assets/Images/b2.jpg';
-import b3 from '../assets/Images/b3.jpg';
-import b4 from '../assets/Images/b4.jpg';
-import b5 from '../assets/Images/b5.jpg';
-import b6 from '../assets/Images/b6.jpg';
-import b7 from '../assets/Images/b7.jpg';
-import b8 from '../assets/Images/b8.jpg';
+import b2 from '../assets/Images/b2-C.jpg';
+import b3 from '../assets/Images/b3-C.jpg';
+import b4 from '../assets/Images/b4-C.jpg';
+import b5 from '../assets/Images/b5-C.jpg';
+import b6 from '../assets/Images/b6-C.jpg';
+import b7 from '../assets/Images/b7-C.jpg';
+import b8 from '../assets/Images/b8-C.jpg';
 
 
 class NavBar extends Component{
@@ -105,7 +105,7 @@ class NavBar extends Component{
                              <img className="z-depth-4 responsive-img materialboxed"  src={b5} alt="logo5" />
                          </div>
                          <div className="col s12 m4 l4">
-                             <img className="z-depth-4 responsive-img materialboxed"  src={b3} alt="logo3" />
+                             <img className="z-depth-4 responsive-img materialboxed centerImage"  src={b3} alt="logo3" />
                          </div>
                          <div className="col s12 m4 l4">
                              <img className="z-depth-4 responsive-img materialboxed"   src={b6} alt="logo6" />
@@ -123,7 +123,7 @@ class NavBar extends Component{
                              <img className="z-depth-4 responsive-img materialboxed"  src={b7} alt="logo7" />
                          </div>
                          <div className="col s12 m4 l4">
-                             <img className="z-depth-4 responsive-img materialboxed"   src={b8} alt="logo8" />
+                             <img className="z-depth-4 responsive-img materialboxed centerImage"   src={b8} alt="logo8" />
                          </div>
                          <div className="col s12 m4 l4">
                              <img className="z-depth-4 responsive-img materialboxed"  src={b4} alt="logo4" />
