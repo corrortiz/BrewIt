@@ -43,6 +43,7 @@ body{
 .imagePosition{
   padding-top: 40px;
   margin-bottom: -70px;
+  border-radius: 50% 50% 10% 10%;
 }
 
 

@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {connect} from 'react-redux';
 import { setlocale, localSelector } from '../action/index';
 
-import {brewItRant, brewItSecondRant, link, youCanFindUsAt, ourProducts, contactanos} from '../assets/traducction';
+import {brewItRant, brewItSecondRant, link, youCanFindUsAt, ourProducts, contactanos, filterCare} from '../assets/traducction';
 
 import ImageFond from '../assets/Images/b1-s.jpg';
 import p1 from '../assets/Images/p1.jpg';
@@ -62,7 +62,7 @@ class NavBar extends Component{
 
                      <div className="row">
                          <div className="col s12 m12 l12 center-align">
-                             <img className="circle imagePosition"  width="120" src={logo} alt="logo" />
+                             <img className="imagePosition"  width="120" src={logo} alt="logo" />
                          </div>
                      </div>
 
@@ -84,6 +84,7 @@ class NavBar extends Component{
                                      <p className="flow-text">{localSelector(this.props.local, brewItRant)}</p>
                                  </div>
                                  <div className="card-action">
+                                     <strong className="flow-text">{localSelector(this.props.local, filterCare)}</strong>
                                      <p className="flow-text">{localSelector(this.props.local, brewItSecondRant)}</p>
                                  </div>
                              </div>
@@ -108,11 +109,12 @@ class NavBar extends Component{
                              />
                          </div>
                          <div className="col s12 m4 l4">
-                             <h6 className="filterName">Chemex 08-10</h6>
-                             <img className="z-depth-4 responsive-img materialboxed centerImage"  src={b3} alt="logo3"
-                                data-caption="Chemex 08-10"
+                             <h6 className="filterName">V60 02</h6>
+                             <img className="z-depth-4 responsive-img materialboxed centerImage"   src={b8} alt="logo8"
+                                  data-caption="V60 02"
                              />
                          </div>
+
                          <div className="col s12 m4 l4">
                              <h6 className="filterName">Cone 04</h6>
                              <img className="z-depth-4 responsive-img materialboxed"   src={b6} alt="logo6"
@@ -129,19 +131,16 @@ class NavBar extends Component{
 
                      <div className="row center-align">
                          <div className="col s12 m4 l4">
-                             <h6 className="filterName">Chemex 08-10</h6>
                              <img className="z-depth-4 responsive-img materialboxed"  src={b7} alt="logo7"
                                   data-caption="Chemex 08-10"
                              />
                          </div>
                          <div className="col s12 m4 l4">
-                             <h6 className="filterName">V60 02</h6>
-                             <img className="z-depth-4 responsive-img materialboxed centerImage"   src={b8} alt="logo8"
-                                  data-caption="V60 02"
+                             <img className="z-depth-4 responsive-img materialboxed centerImage"  src={b3} alt="logo3"
+                                  data-caption="Chemex 08-10"
                              />
                          </div>
                          <div className="col s12 m4 l4">
-                             <h6 className="filterName">Chemex 08-10</h6>
                              <img className="z-depth-4 responsive-img materialboxed"  src={b4} alt="logo4"
                                   data-caption="Chemex 08-10"
                              />
