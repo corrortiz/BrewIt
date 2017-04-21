@@ -26,6 +26,11 @@ body{
   letter-spacing: 5px;
 }
 
+.filterName{
+  font-family: Conv_BEBAS___;
+  letter-spacing: 5px;
+}
+
 .title-position{
   top: -20%;
   transform: translateY(45%);

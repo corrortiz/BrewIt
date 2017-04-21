@@ -102,13 +102,22 @@ class NavBar extends Component{
 
                      <div className="row center-align">
                          <div className="col s12 m4 l4">
-                             <img className="z-depth-4 responsive-img materialboxed"  src={b5} alt="logo5" />
+                             <h6 className="filterName">Chemex 08-10</h6>
+                             <img className="z-depth-4 responsive-img materialboxed"  src={b5} alt="logo5"
+                                data-caption="Chemex 8-10"
+                             />
                          </div>
                          <div className="col s12 m4 l4">
-                             <img className="z-depth-4 responsive-img materialboxed centerImage"  src={b3} alt="logo3" />
+                             <h6 className="filterName">Chemex 08-10</h6>
+                             <img className="z-depth-4 responsive-img materialboxed centerImage"  src={b3} alt="logo3"
+                                data-caption="Chemex 08-10"
+                             />
                          </div>
                          <div className="col s12 m4 l4">
-                             <img className="z-depth-4 responsive-img materialboxed"   src={b6} alt="logo6" />
+                             <h6 className="filterName">Cone 04</h6>
+                             <img className="z-depth-4 responsive-img materialboxed"   src={b6} alt="logo6"
+                                  data-caption="Cone 04"
+                             />
                          </div>
                      </div>
 
@@ -120,13 +129,22 @@ class NavBar extends Component{
 
                      <div className="row center-align">
                          <div className="col s12 m4 l4">
-                             <img className="z-depth-4 responsive-img materialboxed"  src={b7} alt="logo7" />
+                             <h6 className="filterName">Chemex 08-10</h6>
+                             <img className="z-depth-4 responsive-img materialboxed"  src={b7} alt="logo7"
+                                  data-caption="Chemex 08-10"
+                             />
                          </div>
                          <div className="col s12 m4 l4">
-                             <img className="z-depth-4 responsive-img materialboxed centerImage"   src={b8} alt="logo8" />
+                             <h6 className="filterName">V60 02</h6>
+                             <img className="z-depth-4 responsive-img materialboxed centerImage"   src={b8} alt="logo8"
+                                  data-caption="V60 02"
+                             />
                          </div>
                          <div className="col s12 m4 l4">
-                             <img className="z-depth-4 responsive-img materialboxed"  src={b4} alt="logo4" />
+                             <h6 className="filterName">Chemex 08-10</h6>
+                             <img className="z-depth-4 responsive-img materialboxed"  src={b4} alt="logo4"
+                                  data-caption="Chemex 08-10"
+                             />
                          </div>
                      </div>
 
