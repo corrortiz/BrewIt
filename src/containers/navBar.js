@@ -84,7 +84,7 @@ class NavBar extends Component{
                                      <p className="flow-text">{localSelector(this.props.local, brewItRant)}</p>
                                  </div>
                                  <div className="card-action">
-                                     <strong className="flow-text">{localSelector(this.props.local, filterCare)}</strong>
+                                     <h4 className="subLey flow-text">{localSelector(this.props.local, filterCare)}</h4>
                                      <p className="flow-text">{localSelector(this.props.local, brewItSecondRant)}</p>
                                  </div>
                              </div>
