@@ -4,18 +4,19 @@ import { setlocale, localSelector } from '../action/index';
 
 import {brewItRant, brewItSecondRant, link, youCanFindUsAt, ourProducts, contactanos, filterCare} from '../assets/traducction';
 
-import ImageFond from '../assets/Images/b1-s.jpg';
+import ImageFond from '../assets/Images/b1-C.jpg';
 import p1 from '../assets/Images/p1.jpg';
 import p2 from '../assets/Images/p2.jpg';
 import logo from '../assets/Images/logo.jpg';
 
-import b2 from '../assets/Images/b2-C.jpg';
+import b2 from '../assets/Images/b2-D.jpg';
 import b3 from '../assets/Images/b3-C.jpg';
 import b4 from '../assets/Images/b4-C.jpg';
 import b5 from '../assets/Images/b5-C.jpg';
 import b6 from '../assets/Images/b6-C.jpg';
 import b7 from '../assets/Images/b7-C.jpg';
 import b8 from '../assets/Images/b8-C.jpg';
+import b10 from '../assets/Images/b10.jpg';
 
 
 class NavBar extends Component{
@@ -123,6 +124,17 @@ class NavBar extends Component{
                          </div>
                      </div>
 
+                     <div className="row center-align center">
+                         <div className="col s12 m4 l4"> </div>
+                         <div className="col s12 m4 l4">
+                             <h6 className="filterName">Cold Brew</h6>
+                             <img className="z-depth-4 responsive-img materialboxed"  src={b10} alt="nuevoFondo"
+                                  data-caption="Cold Brew"
+                             />
+                         </div>
+                         <div className="col s12 m4 l4"> </div>
+                     </div>
+
                      <div className="row center-align">
                          <div className="col s12 m12 l12">
                              <img className="z-depth-4 responsive-img materialboxed"  src={b2} alt="logo2" />
@@ -147,8 +159,10 @@ class NavBar extends Component{
                          </div>
                      </div>
 
+
+
                      <div className="row">
-                         <div className="col s12 m12 l12">
+                         <div className="col s12">
                              <div className="card">
                                  <div className="card-title">
                                      <h5 className="center-align subTitulo">{localSelector(this.props.local, youCanFindUsAt)}</h5>
